@@ -1,0 +1,82 @@
+body{
+    font-family: 'SimSun';
+    position: relative;
+    width: 966px;
+    height: 150px;
+    margin: 12px;
+    border-width: 0px;
+    border-color: #444444;
+    border-style: solid;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hr{
+    border-color: #BBBBBB;
+    border-top: 1px;
+    width:61.8%;
+}
+#picture{
+    width:260px;
+    height:150px;
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    margin-right:20px;
+}
+#image{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#one_item_right_content{
+    display: inline-block;
+    height: 150px;
+    vertical-align: top;
+    width: 650px;
+}
+p{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+a{
+    font-size: 12px;
+}
+#item_name{
+    font-size:14px;
+}
+#item_status{
+}
+#connector{
+    float: right;
+}
+#manager{
+}
+#phone{
+}
+#stars{
+    position: relative;
+}
+.star{
+    margin:0px;
+    position: static;
+}
+#item_commet_unstars{
+    position: absolute;
+    z-index: 0;
+}
+#item_commet_stars{
+    position: absolute;
+    z-index: 1;
+}
+#point{
+    margin-left: 123px;
+}
+
+#item_price{
+    margin-top:5px;
+    color: #FF9999;
+    font-size: 19px;
+}
