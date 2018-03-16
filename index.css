@@ -29,6 +29,7 @@ header{
     background-color: #F0E0FF;
     width: 1024px;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .iframe_item{
@@ -48,22 +49,6 @@ header{
     border-color: #444444;
     border-style: solid;
 }
-.one_item_name{
-    font-size:18px;
-}
-.one_item_status{
-    float: right;
-}
-.one_item_commet_stars{
-}
-.one_item_commet_stars_star{
-    margin:1px;
-}
-.one_item_price{
-    color: #FF9999;
-    font-size: 22px;
-}
-
 #logo{
     width: 250px;
 }
