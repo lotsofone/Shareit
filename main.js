@@ -38,6 +38,18 @@ var lab_data = new Array();
         detail: "网络标准：IEEE802.3、IEEE802.3u、IEEE802.3X，端口：24个10/100Mbps RJ45端口，支持8K的MAC地址表深度。尺寸：294mm×180mm×44mm",
         procedure: "按日出租，7日起租，每台每天12元，实验室共有96台存货。预定后借出日的12:00之后到实验室取走仪器，最后一天的16:00前将仪器送回实验室。",
     });
+    lab_data.push(a={
+        name: "MEADE 1500倍天文望远镜",
+        device_id: "              ",
+        manager: "李天志",
+        phone: "(020)85072983",
+        status: "空闲",
+        point: 2.0,
+        price: "￥99/日",
+        discription: "1500倍天文望远镜，用于观察星空",
+        detail: "放大倍率1500倍，焦比：F/5.9，镜头口径102mm，极限星等12.5",
+        procedure: "按日出租，每日299元。以中午12:00为日分界，借出日14:00之后取走仪器，归还日后一天9:00前归还。",
+    });
 }
 
 for(var i=0; i<lab_data.length; i++){
