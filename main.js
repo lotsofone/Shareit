@@ -32,7 +32,7 @@ var lab_data = new Array();
         manager: "李天志",
         phone: "(020)85072983",
         status: "空闲",
-        point: 1.8,
+        point: 5.0,
         price: "￥12/日/台",
         discription: "用于网络技术教学",
         detail: "网络标准：IEEE802.3、IEEE802.3u、IEEE802.3X，端口：24个10/100Mbps RJ45端口，支持8K的MAC地址表深度。尺寸：294mm×180mm×44mm",
@@ -40,15 +40,27 @@ var lab_data = new Array();
     });
     lab_data.push(a={
         name: "MEADE 1500倍天文望远镜",
-        device_id: "              ",
+        device_id: "无",
         manager: "李天志",
         phone: "(020)85072983",
         status: "空闲",
-        point: 2.0,
+        point: 3.6,
         price: "￥99/日",
         discription: "1500倍天文望远镜，用于观察星空",
         detail: "放大倍率1500倍，焦比：F/5.9，镜头口径102mm，极限星等12.5",
         procedure: "按日出租，每日299元。以中午12:00为日分界，借出日14:00之后取走仪器，归还日后一天9:00前归还。",
+    });
+    lab_data.push(a={
+        name: "场发射扫描电镜SIGMA 500",
+        device_id: "D1005902030002",
+        manager: "李王萍",
+        phone: "(020)80394782",
+        status: "忙碌",
+        point: 4.6,
+        price: "￥28990/日",
+        discription: "世界顶级光学品牌生产的电子显微镜",
+        detail: "分辨率：0.8nm@30kV STEM，0.8nm @15 kV，1.4 nm @1kV。放大倍数：10-1,000,000×，加速电压：调整范围：0.02-30 kV（无需减速模式实现），探针电流： 3pA～20nA（100nA选配）  稳定性优于 0.2%/h低真空范围：2-133Pa（Sigma 500VP可用）。样品室： 358 mm（φ），270.5 mm（h），样品台：5轴优中心全自动   X＝130mm  Y＝130mm  Z＝50mm  T＝-4°－70°  R＝360°",
+        procedure: "按日出租，每日28990元。自带样品到实验室，从7:00开始使用到20:00下机。",
     });
 }
 
